@@ -1,0 +1,43 @@
+.image-placeholder {
+  width: 95%;
+}
+@media (max-width: 680px) {
+  .image-placeholder {
+    width: 95%;
+  }
+}
+
+.result {
+  max-width: 70em;
+}
+.result video,
+.result img {
+  width: 90%;
+}
+
+@media screen and (max-width: 680px) {
+  .result {
+    max-width: 85em;
+  }
+}
+
+.mobileShow {
+  display: none;
+}
+
+/* Smartphone Portrait and Landscape */
+@media screen and (max-width: 680px) {
+  .mobileShow {
+    display: block;
+  }
+}
+
+.mobileHide {
+  display: block;
+}
+
+@media screen and (max-width: 680px) {
+  .mobileHide {
+    display: none;
+  }
+}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-167470880-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-167470880-1");
+    </script>
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#6b0e47" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/icon-192.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#007BFF" />
+    <meta name="msapplication-TileColor" content="#007BFF" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Instagram Video Downloader"
+    />
+    <meta name="msapplication-TileImage" content="images/icon-180.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <title>انستجرام سبا</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/54e9c89f82.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body onloadstart="myFunction();">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand">انستجرام سبا</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://saba-alabri.github.io/">الصفحه الرئيسيه</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">عني</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="mailto:tastos2010@gmail.com"
+              >تواصل معي</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main style="padding: 30px;">
+      <center>
+        <h2>سبا لتحميل فيديوهات الانستجرام</h2>
+        <div style="padding: 20px;">
+          <input
+            class="form-control"
+            type="text"
+            placeholder="الصق الرابط هنا..."
+          />
+          <br />
+          <button class="btn btn-primary" onclick="getMedia(); myFunction();">
+            تنزيل
+          </button>
+        </div>
+      </center>
+      <center>
+        <section class="result">
+          <div class="image-placeholder"></div>
+          <h6>
+            انسخ رابط الصورة أو الفيديو من Instagram وضعه في حقل الإدخال المذكور أعلاه.
+          </h6>
+        </section>
+      </center>
+    </main>
+    <center>
+      <br />
+      <center>
+        <h3>كيف يعمل تطبيق سبا انستاجرام?</h3>
+        <div style="padding: 20px;">
+          <p>
+            1. اذهب الى تطبيق انستجرام وانسخ رابط المنشور المراد تحميله.
+          </p>
+          <p>
+            2. الان انسخ رابط البوست او المنشور.
+          </p>
+          <p>
+            3. الصق الرابط في حقل الإدخال المذكور أعلاه وانقر فوق الزر "تنزيل".
+          </p>
+          <p>
+            4. الآن سيتم تشغيل هذا الفيديو ، انقر فوق النقاط الثلاث اليمنى
+            <mark style="background-color: yellow; color: black;">⋮</mark> على الفيديو اضغط تحميل وسوف يتم ذلك.
+          </p>
+          <p>
+            5. تم 👍😉.
+          </p>
+        </div>
+        <br />
+        <h6>ملاحظه: لا تحاول تحميل فيديوهات او صور من حساب خاص .</h6>
+        <br />
+        <h3 style="padding: 15px;">
+          يمكنك تثبيته أيضًا ، إنه تطبيق ليس مجرد موقع 
+        </h3>
+        <p style="padding: 20px;">
+          عندما تفتح موقع الويب ستظهر نافذة منبثقة من الأسفل تقول ،
+           "إضافة إلى الشاشة الرئيسية" فقط انقر فوقه ثم انقر فوق إضافة تم ،
+           يمكنك أن ترى أنه مثبت في تطبيقاتك. إذا فاتك ذلك
+           منبثقة ، انقر فوق النقاط الثلاث
+          <mark style="background-color: yellow; color: black;">⋮</mark> من المتصفح خاص بك
+           المتصفح ، وحدد "إضافة إلى الشاشة الرئيسية" ثم انقر فوق "إضافة". تم التنفيذ،
+           تم تثبيت تطبيقنا
+        </p>
+        <br />
+        <h4 style="padding: 15px;">
+          تطبيقنا كامل بالمجان تطبيقات سبا العبري .
+          <div class="mobileHide">
+            <h4>
+              لا تنسى مشاركة تطبيقنا مع اصدقائك.
+            </h4>
+          </div>
+        </h4>
+
+        <div class="mobileShow">
+          <h4 style="padding: 15px;">
+            يمكنك إظهار دعمك من خلال مشاركته ، انقر فوق الزر أدناه
+             للمشاركة عبر Whatsapp. يمكنك أيضًا نسخ الرابط ومشاركته.
+          </h4>
+          <a
+            class="badge badge-pill badge-success"
+            style="font-size: 17px; padding: 15px;"
+            href="whatsapp://send?text=https://sa
+			.github.io نمرحباً اصدقاء هذا تبيقي لتحميل فيديوهات انستجرام حملوه ."
+            data-action="share/whatsapp/share"
+            >Share via Whatsapp</a
+          >
+          <br /><br />
+          <h5 style="padding: 15px;">
+            ملاحظه: تم برمجة هذا التطبيق او الموقع للأستخدام الهاتفي المحمول مع اخلاء .
+          </h5>
+        </div>
+      </center>
+      <br />
+      <br />
+      <footer style="background-color: #007bff; padding: 10px; color: white;">
+        <h4>مبرمج هذا التطبيق سبا العبري</h4>
+        <h5>تم صنعه بحب في سور عبري.</h5>
+        <h5>يمكنك التواصل معي في التواصل الاجتماعي من الروابط اسفل.</h5>
+        <div>
+          <a href="https://www.instagram.com/yahya_runner/">
+            <i class="fab fa-instagram fa-2x" style="color: white;"></i>
+          </a>
+          &nbsp; &nbsp;
+          <a href="https://www.youtube.com/channel/UCS6N2CXYEu2sExTifDwUH9Q">
+            <li class="fab fa-youtube fa-2x" style="color: white;"></li> </a
+          >&nbsp; &nbsp;
+		  
+          <h6>
+            © جميع الحقوق محفوظه لدى.<span id="fullYearCopyright"></span> سبا العبري - 
+            .
+          </h6>
+        </div>
+      </footer>
+    </center>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
